@@ -1,0 +1,76 @@
+body{
+    background-color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.common{
+    border: 2px solid white;
+    position: absolute;
+}
+
+.header{
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+    z-index: 2;
+}
+
+.leftmenu{
+    top: 107px;
+    left: 5px;
+    width: 106px;
+    bottom: 47px;
+    z-index: 1;
+    padding-top: 40px;
+    border-right: solid white 1px #555555;
+}
+
+.mainbody{
+    top: 107px;
+    left: 114px;
+    right: 600
+    bottom: 47px;
+    padding-right: 5px;
+}
+
+.lowermainbody{
+    top: 582px;
+    left: 114px;
+    right: 600px;
+    bottom: 47px;
+    border-top: solid white 1px;
+}
+.toprightmenu{
+    top: 107px;
+    right: 5px;
+    width: 657px;
+    bottom: 47px;
+    border-left: solid white 1px #555555;
+    padding-left: 5px;
+}
+.bottomrightmenu{
+    top: 582px;
+    right:5px;
+    width: 657px;
+    bottom: 47px;
+    border-left: solid white 1px #5555555;
+    border-top: solid white 1px;
+    
+}
+
+.footer{
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    height: 25px;
+    font-size: 8px;
+    color: #999999;
+    text-align: center;
+    padding-top: 15px;
+    position: fixed;
+}
+
+.subheader{
+    float: right;
+}

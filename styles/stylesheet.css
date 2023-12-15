@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+}
+ol {
+    font-family: sans-serif;
+    font-size: 20px;
+    color: black;
+}
+li {
+    font-size: 18px;
+    font-weight: normal;
+}
+a {
+    color: maroon;
+    text-decoration: none;}
+/* We learned how to make comments in CSS and Html that won't affect the actual code */
+a:hover{
+    text-decoration: underline;}
+a:visited{
+    color: blue;}
+.resumelistheading {
+    font-weight: bold;
+    font-style: normal;}
+.underline {
+    text-decoration: underline;}
+.justify {
+    text-align: justify;}
+.homebg{
+    background-color: lavender;}
+.bold{
+    font-size: 25px;
+    font-weight: bold;
+font-family: sans-serif;
+color: black}
+    .box1{border-width: 1px;
+        border-style: solid;
+        border-color: red;}
+    .box2{
+        padding: 5px;}
+    .box3{
+        margin: 50px;}
+.italic {
+    font-style: italic
+}
